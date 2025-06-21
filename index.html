@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <section class="todo-list">
+      <form class="todo-form">
+        <div class="heading">
+          <h1>Welcome to ToDo List</h1>
+        </div>
+        <label class="task-lev" for="list">Your Task:</label><br />
+        <input
+          type="text"
+          id="todolist"
+          placeholder="Enter task"
+          required
+        /><br />
+        <button class="addList">Add Task</button>
+      </form>
+      <br />
+      <div class="list-container" id="listContainer">
+
+      </div>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
+
+<!-- <div class="list-items">
+    <div class="check-items">
+        <input type="checkbox" id="check">
+        <label for="check">First Task List</label>
+    </div>
+    <i class="fa-solid fa-xmark"></i>
+</div> -->
